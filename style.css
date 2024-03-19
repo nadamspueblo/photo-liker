@@ -1,5 +1,5 @@
 body {
-  background-color: #ffe5b8;
+  background-color: #ffccb8;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -8,6 +8,9 @@ h1 {
   font-size: 60px;
   margin: 0px;
   background-color: #ffe5e9;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #pic {
@@ -29,10 +32,12 @@ h1 {
 
 #thumbup, #thumbdown {
   display: block;
-  padding: 4px;
+  padding: 10px;
   border-radius: 50%;
   margin-left: 10px;
   margin-right: 10px;
+  border: 0px;
+  cursor: pointer;
 }
 
 #thumbup {
@@ -45,7 +50,11 @@ h1 {
 
 #likes {
   background-color: #ffe5e9;
+  text-align: center;
+  width: 300px;
   padding: 10px;
+  font-size: 30px;
+  border-radius: 8px;
 }
 
 #section2 {
@@ -58,21 +67,22 @@ h1 {
   background-color: #ffe5e9;
   padding: 10px;
   border-radius: 8px;
+  margin-top: 0px;
 }
 
 #newcomment {
-  background-color: lightgray;
+  background-color: inherit;
   border-radius: 8px;
   width: 300px;
   height: 50px;
+  border: 2px solid white;
 }
 
 #addcomment {
   font-size: 30px;
-  height: 50px;
   text-align: center;
   border-radius: 8px;
-  background-color: #ffe5b8;
+  background-color: inherit;
   border: 0px;
   cursor: pointer;
 }
